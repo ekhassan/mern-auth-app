@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply w-full font-semibold bg-violet-500 py-2 px-5 rounded-md text-white hover:bg-violet-700;
+  }
+  .input {
+    @apply w-full p-2 border-none outline-none ring-2 ring-violet-500 rounded-md;
+  }
+  .nav-link {
+    @apply px-3 py-2 hover:bg-violet-500 rounded-md transition hover:duration-300 hover:ease-in;
+  }
+  .active-nav-link {
+    @apply px-3 py-2 bg-violet-500 rounded-md transition hover:duration-300 hover:ease-in;
+  }
+}
